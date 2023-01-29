@@ -4,7 +4,6 @@
 red='\033[0;31m'
 green='\033[1;32m'
 yellow='\033[1;33m'
-plain='\033[0m'
 #定义颜色变量
 RED="\033[31m"    # Error message
 GREEN="\033[32m"  # Success message
