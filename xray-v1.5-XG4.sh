@@ -1,17 +1,5 @@
 #!/bin/bash
 
-#颜色
-red='\033[0;31m'
-green='\033[1;32m'
-yellow='\033[1;33m'
-#定义颜色变量
-RED="\033[31m"    # Error message
-GREEN="\033[32m"  # Success message
-YELLOW="\033[33m" # Warning message
-BLUE="\033[36m"   # Info message
-PLAIN='\033[0m'
-red='\e[91m' green='\e[92m' yellow='\e[93m' magenta='\e[95m' cyan='\e[96m' none='\e[0m'
-
 #定义停留警告界面
 Error() { read -sp "$(echo -e "\n${red}$*${none}\n")"; }
 
